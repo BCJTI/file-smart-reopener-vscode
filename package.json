@@ -14,8 +14,17 @@
 		"*"
 	],
 	"main": "./out/src/extension",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/BCJTI/file-smart-reopener-vscode.git"
+	},
 	"contributes": {
 	},
+	"keywords":[
+		"file",
+		"manage",
+		"reopen"
+	],
 	"scripts": {
 		"vscode:prepublish": "node ./node_modules/vscode/bin/compile",
 		"compile": "node ./node_modules/vscode/bin/compile -watch -p ./"
